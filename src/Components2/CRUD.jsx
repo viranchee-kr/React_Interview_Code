@@ -114,7 +114,7 @@ const CRUD = () => {
 
 
 
-          <div style={{ marginTop: "31px" }}>
+          <div style={{ marginTop: "30px" }}>
             DOB:
             <input
               type="date"
