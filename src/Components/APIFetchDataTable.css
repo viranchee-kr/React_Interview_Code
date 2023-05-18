@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html {
+  font-size: 60%;
+}
+table {
+  margin: 5rem auto;
+  border-radius: 2rem;
+  border: 1rem  #444c68;
+  color: rgb(82, 27, 185);
+
+}
+th{
+    background-color: rgb(27, 185, 66);
+}
+th,td {
+  border: 1px solid #0c37d1;
+  min-width: 30rem;
+  padding: 1.5rem;
+  line-height: 1.7;
+  font-size: 1.5rem;
+}
+td {
+  font-size: 1.5rem;
+ 
+}

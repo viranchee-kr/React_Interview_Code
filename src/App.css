@@ -1,38 +1,87 @@
-.App {
+html body {
+  background-color: rgb(127, 255, 212);
+}
+.app {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.container {
+  background-color: rgb(30, 8, 231);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 50%;
+  margin-left: 26%;
+  margin-top: 5%;
+  padding: 20px;
+  text-align: center;
+}
+
+input [type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 30px 0px;
+  display: inline-block;
+  border: 1px solid rgb(235, 225, 225);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 100px;
+}
+
+.container input {
+  margin-right: 50px;
+  width: 25%;
+}
+button {
+  width: 10%;
+
+  background-color: rgb(10, 218, 104);
+  color: black;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button :hover {
+  background-color: rgb(176, 247, 12);
+}
+.header {
+  width: 100%;
+  padding: 12px 20px;
   color: white;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.App-link {
-  color: #61dafb;
+.List-heading {
+  color: rgb(13, 194, 226);
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: left;
+  background-color: rgb(10, 228, 155);
+  width: 0%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.listData {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  background-color: rgba(221, 183, 13, 0.829);
+  text-align: left;
+  padding-left: 30px;
+  width: 53%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  border-radius: 10px;
+}
+
+.btn-position-two {
+  position: relative;
+  left: 8%;
+  top: -30px;
+}
+.btn-position {
+  position: relative;
+  left: 21%;
+  top: -65px;
 }
